@@ -1,4 +1,4 @@
-build
+build/dist
 profile.cov
 
 # Created by https://www.gitignore.io/api/go,osx,visualstudiocode
@@ -66,4 +66,4 @@ Temporary Items
 
 # End of https://www.gitignore.io/api/go,osx,visualstudiocode
 
-build/
+build/dist/
