@@ -1,4 +1,4 @@
-package cmd
+package actions
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 
-	"github.com/oorrwullie/gogitmoji/gitmoji"
+	"github.com/oorrwullie/gogit/internal/gitmoji"
 )
 
 // listCmd represents the list command

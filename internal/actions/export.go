@@ -1,4 +1,4 @@
-package cmd
+package actions
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/oorrwullie/gogitmoji/templates"
+	"github.com/oorrwullie/gogit/internal/templates"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"

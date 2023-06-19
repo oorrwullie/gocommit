@@ -1,4 +1,4 @@
-package cmd
+package actions
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/oorrwullie/gogitmoji/templates"
+	"github.com/oorrwullie/gogit/internal/templates"
 )
 
 const (

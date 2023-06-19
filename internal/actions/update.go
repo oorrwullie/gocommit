@@ -1,11 +1,11 @@
-package cmd
+package actions
 
 import (
 	"log"
 
 	"github.com/spf13/cobra"
 
-	"github.com/oorrwullie/gogitmoji/gitmoji"
+	"github.com/oorrwullie/gogit/internal/gitmoji"
 )
 
 // updateCmd represents the update command

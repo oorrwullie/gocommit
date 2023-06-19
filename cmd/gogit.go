@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/oorrwullie/gogitmoji/cmd"
+	cmd "github.com/oorrwullie/gogit/internal/actions"
 	"github.com/spf13/cobra"
 )
 
