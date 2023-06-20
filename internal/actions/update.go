@@ -5,7 +5,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/oorrwullie/gogit/internal/gitmoji"
+	"github.com/oorrwullie/gocommit/internal/gitmoji"
 )
 
 // updateCmd represents the update command

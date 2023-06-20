@@ -16,7 +16,7 @@ var cfgFile string
 var rootCmd = &cobra.Command{
 	Use:   "gitmoji",
 	Short: "Gitmoji helper written in Go.",
-	Long:  `gogitmoji helps you write git commit messages containing gitmoji!`,
+	Long:  `gocommit helps you write git commit messages`,
 	Run: func(cmd *cobra.Command, args []string) {
 		commit()
 	},

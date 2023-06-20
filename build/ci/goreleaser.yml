@@ -40,15 +40,15 @@ changelog:
       - '^docs:'
       - '^test:'
 brews:
-  - name: gogitmoji
+  - name: gocommit
     tap:
       owner: oorrwullie
-      name: homebrew-gogitmoji
+      name: homebrew-gocommit
       branch: master
-    url_template: "https://github.com/oorrwullie/gogitmoji/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
+    url_template: "https://github.com/oorrwullie/gocommit/releases/download/{{ .Tag }}/{{ .ArtifactName }}"
     commit_author:
       name: oorrwullie
       email: payneks@@gmail.com
     folder: Formula
-    homepage: "https://github.com/oorrwullie/gogitmoji"
-    description: "gogitmoji helps you write git commit messages containing gitmoji!"
+    homepage: "https://github.com/oorrwullie/gocommit"
+    description: "gocommit helps you write git commit messages"

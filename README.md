@@ -1,4 +1,4 @@
-# gogitmoji
+# gogit
 
 [Gitmoji](https://gitmoji.carloscuesta.me/) helper written with ❤️ in Go. Inspired by [gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli).
 

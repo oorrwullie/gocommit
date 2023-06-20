@@ -11,7 +11,7 @@ import (
 
 	"github.com/manifoldco/promptui"
 	"github.com/mitchellh/mapstructure"
-	"github.com/oorrwullie/gogit/internal/gitmoji"
+	"github.com/oorrwullie/gocommit/internal/gitmoji"
 	"github.com/spf13/viper"
 )
 

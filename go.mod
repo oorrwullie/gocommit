@@ -1,4 +1,4 @@
-module github.com/oorrwullie/gogit
+module github.com/oorrwullie/gocommit
 
 go 1.20
 

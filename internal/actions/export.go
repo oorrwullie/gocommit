@@ -6,7 +6,7 @@ import (
 	"os"
 
 	"github.com/mitchellh/mapstructure"
-	"github.com/oorrwullie/gogit/internal/templates"
+	"github.com/oorrwullie/gocommit/internal/templates"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"gopkg.in/yaml.v2"

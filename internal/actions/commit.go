@@ -8,7 +8,7 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 
-	"github.com/oorrwullie/gogit/internal/templates"
+	"github.com/oorrwullie/gocommit/internal/templates"
 )
 
 const (
@@ -30,7 +30,7 @@ var commitCmd = &cobra.Command{
 Prompts for the gitmoji to use, as well as the commit message itself. Once
 all prompts are filled out, executes git commit.
 
-This is the default command when no other command is specified to gogitmoji.
+This is the default command when no other command is specified to gocommit.
 
 The hook do command has the same format, except that it takes one argument: the
 path to a file containing the commit message. The hook do command is only
@@ -82,7 +82,7 @@ func commit() {
 
 	if tpl, ok := templates.TemplateLookup[t]; ok {
 		templates.RunTemplateCommand(tpl)
-		fmt.Printf("\ngogitmoji done.\n")
+		fmt.Printf("\ngocommit done.\n")
 	} else {
 		log.Fatalf("Unknown commit template: \"%s\"\n", t)
 	}
